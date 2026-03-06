@@ -21,4 +21,4 @@ app.include_router(router)
 
 @app.get("/")
 def root():
-    return {"message": "Student Management API is running"}
+    return {"message": "He thong QLSV API v0.1.0"}

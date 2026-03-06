@@ -39,12 +39,12 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Quan ly Sinh vien</h1>
+      <h1>Hệ thống QLSV</h1>
 
       <div className="toolbar">
         <input
           type="text"
-          placeholder="Tim kiem (ten, ma SV, email)..."
+          placeholder="Tìm kiếm (tên, mã SV, email)..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
