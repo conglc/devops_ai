@@ -1,0 +1,34 @@
+# Environment
+.env
+.env.local
+.env.production
+
+# Dependencies
+node_modules/
+vendor/
+__pycache__/
+venv/
+.venv/
+
+# Build output
+dist/
+build/
+out/
+.next/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Docker
+docker-compose.override.yml
